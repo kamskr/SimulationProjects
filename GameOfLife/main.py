@@ -1,3 +1,4 @@
 from service.GameOfLife import GameOfLife
 
-gof = GameOfLife(10, 10)
+gof = GameOfLife(200, 200)
+gof.plot_game(100)
